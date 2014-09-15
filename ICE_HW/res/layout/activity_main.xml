@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    
+    
+     <TextView
+         android:id="@+id/Timmer"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:layout_marginLeft="20dp"
+         android:layout_marginTop="30dp"
+         android:capitalize="characters"
+         android:text="Your event"
+         android:textSize="40dp" />
+
+     <EditText
+         android:id="@+id/myEvent"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/Timmer"
+         android:layout_below="@+id/Timmer"
+         android:ems="10" />
+
+     <Button
+         android:id="@+id/yes"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:layout_marginBottom="132dp"
+         android:text="YES" />
+
+     <Button
+         android:id="@+id/ChangeDate"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/myEvent"
+         android:layout_below="@+id/myEvent"
+         android:layout_marginTop="28dp"
+         android:text="DeadLine" />
+
+     <TextView
+         android:id="@+id/output"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignBaseline="@+id/ChangeDate"
+         android:layout_alignBottom="@+id/ChangeDate"
+         android:layout_marginLeft="14dp"
+         android:layout_toRightOf="@+id/ChangeDate"
+         android:capitalize="characters"
+         android:text="Your Time Left"
+         android:textSize="20dp" />
+
+</RelativeLayout>

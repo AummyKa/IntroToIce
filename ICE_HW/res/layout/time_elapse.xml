@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/Timmer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:capitalize="characters"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/time_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:capitalize="characters"
+        android:text="Your Time Left"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/MyEvent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/time_left"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="30dp"
+        android:capitalize="characters"
+        android:text="My Event"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/Back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignRight="@+id/MyEvent"
+        android:layout_marginBottom="30dp"
+        android:text="Back" />
+
+</RelativeLayout>
+
