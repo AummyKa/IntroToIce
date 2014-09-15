@@ -13,16 +13,28 @@
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        
+        <activity android:name = "com.example.ice_hw.SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.SEND" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+            
+        </activity>
+        
         <activity
             android:name="com.example.ice_hw.MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+               
+				<action android:name="android.intent.action.SEND" />
+                
             </intent-filter>
         </activity>
         <activity android:name = "com.example.ice_hw.TimeElapse"></activity>
+        
     </application>
 
 </manifest>
