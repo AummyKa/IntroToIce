@@ -5,5 +5,5 @@ android:layout_width="fill_parent"
 android:layout_height="fill_parent" >
 <ImageView android:layout_width="fill_parent"
     android:layout_height="fill_parent" 
-    android:src="@drawable/ice" />
+    android:src="@drawable/screen" />
 </LinearLayout>

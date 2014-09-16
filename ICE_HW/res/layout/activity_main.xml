@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent" >
+    android:layout_height="match_parent"
+    android:background="@drawable/bg">
 
     
     
@@ -26,22 +27,13 @@
          android:ems="10" />
 
      <Button
-         android:id="@+id/yes"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
-         android:layout_alignParentBottom="true"
-         android:layout_centerHorizontal="true"
-         android:layout_marginBottom="132dp"
-         android:text="YES" />
-
-     <Button
          android:id="@+id/ChangeDate"
-         android:layout_width="wrap_content"
-         android:layout_height="wrap_content"
+         android:layout_width="30dp"
+         android:layout_height="30dp"
          android:layout_alignLeft="@+id/myEvent"
          android:layout_below="@+id/myEvent"
          android:layout_marginTop="28dp"
-         android:text="DeadLine" />
+         android:background="@drawable/time"/>
 
      <TextView
          android:id="@+id/output"
@@ -54,5 +46,15 @@
          android:capitalize="characters"
          android:text="Your Time Left"
          android:textSize="20dp" />
+
+     <Button
+         android:id="@+id/yes"
+         android:layout_width="100dp"
+         android:layout_height="40dp"
+         android:layout_below="@+id/ChangeDate"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="117dp"
+         android:background="@drawable/ok"
+         android:minHeight="20dip"/>
 
 </RelativeLayout>

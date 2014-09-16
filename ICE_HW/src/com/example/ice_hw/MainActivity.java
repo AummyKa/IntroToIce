@@ -126,38 +126,7 @@ public class MainActivity extends Activity {
 		 return I_myEvent;
 	 }
 	 
-	 public String getDateInput(){
-		 return Date_input;
-	 }
 	
-	 public int getMonth(){
-		int That_month = month+1;
-		return That_month;
-		 
-	 }
-	 
-	 public int getYear(){
-		 int That_year = year;
-		 return That_year;
-	 }
-	 
-	 public int getDay(){
-		 return day;
-		 
-	 }
-	 
-	
-	 
-	 public int getCurYear(){
-		 Calendar a = Calendar.getInstance();
-		 int This_year = a.YEAR;
-		 return This_year;
-	 }
-	 
-	 public long getCurDay(){
-		 long a = Calendar.getInstance().getTimeInMillis();			
-		 return a;
-	 }
 	 
 	 
 	 /*public void addKeyListener() {

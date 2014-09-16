@@ -58,7 +58,7 @@ public class TimeElapse extends MainActivity{
 			
 			*/
 	        CountDownTimer mCountDownTimer;
-		    long mInitialTime = DateUtils.DAY_IN_MILLIS * a+ 
+		    long mInitialTime = DateUtils.DAY_IN_MILLIS * (a+1)+ 
 		                        DateUtils.HOUR_IN_MILLIS * 0 +
 		                        DateUtils.MINUTE_IN_MILLIS * 0 + 
 		                        DateUtils.SECOND_IN_MILLIS * 0;

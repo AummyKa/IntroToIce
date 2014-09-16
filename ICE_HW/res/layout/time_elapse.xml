@@ -2,7 +2,8 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:background="@drawable/bg" >
 
     <TextView
         android:id="@+id/Timmer"
@@ -15,17 +16,6 @@
         android:textSize="40dp" />
 
     <TextView
-        android:id="@+id/time_left"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="62dp"
-        android:capitalize="characters"
-        android:text="Your Time Left"
-        android:textSize="20dp" />
-
-    <TextView
         android:id="@+id/MyEvent"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -34,16 +24,26 @@
         android:layout_marginTop="30dp"
         android:capitalize="characters"
         android:text="My Event"
-        android:textSize="25dp" />
+        android:textSize="40dp" />
 
     <Button
         android:id="@+id/Back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:background="@drawable/home" />
+
+    <TextView
+        android:id="@+id/time_left"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/MyEvent"
-        android:layout_marginBottom="30dp"
-        android:text="Back" />
+        android:layout_below="@+id/MyEvent"
+        android:layout_centerHorizontal="true"
+        android:capitalize="characters"
+        android:text="Your Time Left"
+        android:textSize="25dp" />
 
 </RelativeLayout>
 
